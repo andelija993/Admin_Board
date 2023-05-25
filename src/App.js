@@ -10,8 +10,8 @@ import FAQ from "./components/scenes/faq/index"
 import Form from "./components/scenes/form/index"
 // import Geography from "./scenes/geography";
 import Invoices from "./components/scenes/invoices/index"
-// import Line from "./scenes/line";
-// import Pie from "./scenes/pie";
+import Line from "./components/scenes/line/index"
+import Pie from "./components/scenes/pie/index"
 import Sidebar from "./components/scenes/global/Sidebar"
 import Team from "./components/scenes/team/index"
 import Topbar from "././components/scenes/global/Topbar"
@@ -38,8 +38,8 @@ function App() {
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
-              {/* <Route path="/pie" element={<Pie />} /> */}
-              {/* <Route path="/line" element={<Line />} /> */}
+              <Route path="/pie" element={<Pie />} />
+              <Route path="/line" element={<Line />} />
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
